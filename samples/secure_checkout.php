@@ -46,5 +46,10 @@ if ( $Description != "" ) {
 
 echo "Your transaction order id was, " . $OrderID . "<br>";
 echo "Your transaction amount was, " . $Amount . "<br>";
-
+if($ApprovalCode != "") {
+  echo "Your transaction was approved with the code: " . $ApprovalCode . "<br>";
+}
+else {
+  echo "Your transaction was not approved.";
+}
 ?>
