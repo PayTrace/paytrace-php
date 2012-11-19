@@ -1,4 +1,6 @@
 paytrace-php
 ============
 
-PHP Samples and libraries
+Here is a collection of samples utilizing various aspects of the PayTrace API through PHP
+
+
